@@ -17,5 +17,5 @@ app.listen(PORT, () => {
 });
 
 app.get('/', function(req, res){
-    res.sendFile('index.html', { root: __dirname});
+    res.sendFile('silence.html', { root: __dirname});
 });
